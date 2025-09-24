@@ -1,0 +1,54 @@
+A **fast, colorized, cross-platform security checker** for lab environments!  
+Scan hosts with Nmap, hash detected services, and automatically block high-risk ports via firewall.  
+
+---
+
+## ⚡ Features
+
+- ✅ Cross-platform: Windows & Linux compatible  
+- ✅ Nmap scanning with XML parsing  
+- ✅ SHA-256 hashing for safe storage of service info  
+- ✅ Automatic firewall blocking for high-risk ports  
+- ✅ Colorful console output using Colorama  
+- ✅ Configurable high-risk ports
+
+---
+
+## 🛠️ Installation
+
+### Linux
+
+```bash
+chmod +x install.sh
+./install.sh
+Windows
+Double-click install.bat or run in CMD/PowerShell:
+
+cmd
+Kodu kopyala
+install.bat
+Requirements
+See requirements.txt and install with:
+
+bash
+Kodu kopyala
+pip install -r requirements.txt
+🎯 Usage
+bash
+Kodu kopyala
+# Linux
+sudo python3 checker_firewall_hash_crossplatform_en.py
+
+# Windows
+python checker_firewall_hash_crossplatform_en.py  # Run as Administrator
+⚙️ Configuration
+Edit the script to change:
+
+python
+Kodu kopyala
+TARGET = "127.0.0.1"
+HIGH_RISK_PORTS = [135, 445, 3826, 5357]
+Set your target IP
+
+Customize which ports are blocked automatically
+
