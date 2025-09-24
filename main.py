@@ -6,7 +6,7 @@ import os
 import sys
 import platform
 from colorama import init, Fore
-print("""
+print(Back.WHITE+"""
 
 ⠄⠄⠄⠄⢀⡤⣖⣞⣮⢾⢽⣳⢯⢿⢷⣦⣄⠄⠄⠐⠄
 ⠐⠄⠄⣴⣯⣯⢷⣻⣺⢽⣫⢾⣝⡵⡯⣾⣽⢷⣄⠄⠄
@@ -24,6 +24,7 @@ print("""
 ⠏⠟⠛⠃⠄⠘⠛⠊⠊⠘⠐⠅⠇⠻⠛⠓⠛⠛⠪⠓⠹
 
 """)
+print(Style.RESET_ALL)
 # Colorama init
 init(autoreset=True)
 
